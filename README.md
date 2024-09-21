@@ -1,4 +1,9 @@
-[![Latest Stable Version](http://poser.pugx.org/bear8421/htpasswd/v)](https://packagist.org/packages/bear8421/htpasswd) [![Total Downloads](http://poser.pugx.org/bear8421/htpasswd/downloads)](https://packagist.org/packages/bear8421/htpasswd) [![Latest Unstable Version](http://poser.pugx.org/bear8421/htpasswd/v/unstable)](https://packagist.org/packages/bear8421/htpasswd) [![License](http://poser.pugx.org/bear8421/htpasswd/license)](https://packagist.org/packages/bear8421/htpasswd) [![PHP Version Require](http://poser.pugx.org/bear8421/htpasswd/require/php)](https://packagist.org/packages/bear8421/htpasswd)
+[![Latest Stable Version](https://img.shields.io/packagist/v/bear8421/htpasswd.svg?style=flat-square)](https://packagist.org/packages/bear8421/htpasswd)
+[![Total Downloads](https://img.shields.io/packagist/dt/bear8421/htpasswd.svg?style=flat-square)](https://packagist.org/packages/bear8421/htpasswd)
+[![Daily Downloads](https://img.shields.io/packagist/dd/bear8421/htpasswd.svg?style=flat-square)](https://packagist.org/packages/bear8421/htpasswd)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/bear8421/htpasswd.svg?style=flat-square)](https://packagist.org/packages/bear8421/htpasswd)
+[![License](https://img.shields.io/packagist/l/bear8421/htpasswd.svg?style=flat-square)](https://packagist.org/packages/bear8421/htpasswd)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/bear8421/htpasswd/php)](https://packagist.org/packages/bear8421/htpasswd)
 
 # Htpasswd helper, library
 
