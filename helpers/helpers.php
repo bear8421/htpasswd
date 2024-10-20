@@ -36,3 +36,26 @@ if (!function_exists('generateHtpasswdPassword')) {
         return $hashedPassword;
     }
 }
+if (!function_exists('create_htpasswd_from_password')) {
+    function create_htpasswd_from_password($password = '')
+    {
+        if (empty($password)) {
+            $password = md5(uniqid(mt_rand(), true));
+        }
+        try {
+            if (function_exists('random_bytes')) {
+                $salt = '$6$' . bin2hex(random_bytes(8)); // Tạo salt theo chuẩn SHA-512 cho htpasswd
+                $hashed_password = crypt($password, $salt);
+                return trim($hashed_password);
+            } elseif (function_exists('openssl_random_pseudo_bytes')) {
+                $salt = '$6$' . bin2hex(openssl_random_pseudo_bytes(8)); // Tạo salt cho SHA-512
+                $hashed_password = crypt($password, $salt);
+                return trim($hashed_password);
+            } else {
+                return generateHtpasswdPassword($password);
+            }
+        } catch (\Exception $e) {
+            return generateHtpasswdPassword($password);
+        }
+    }
+}

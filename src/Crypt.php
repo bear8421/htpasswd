@@ -10,7 +10,6 @@
 
 namespace nguyenanhung\Libraries\Htpasswd;
 
-
 class Crypt extends \axy\htpasswd\Crypt
 {
 

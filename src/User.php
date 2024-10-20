@@ -10,7 +10,6 @@
 
 namespace nguyenanhung\Libraries\Htpasswd;
 
-
 class User extends \axy\htpasswd\User
 {
 

@@ -10,7 +10,6 @@
 
 namespace nguyenanhung\Libraries\Htpasswd;
 
-
 class PasswordFile extends \axy\htpasswd\PasswordFile
 {
 
