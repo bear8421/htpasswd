@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "axy/htpasswd": "^1.0"
+        "axy/htpasswd": "^2.0 || ^1.0"
     },
     "autoload": {
         "psr-4": {
